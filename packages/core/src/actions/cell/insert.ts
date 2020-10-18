@@ -40,7 +40,7 @@ export interface InsertAction extends Action {
   type: InsertType;
 }
 
-type PluginsAndLang = {
+export type PluginsAndLang = {
   lang: string;
 } & Pick<Options, 'plugins'>;
 
